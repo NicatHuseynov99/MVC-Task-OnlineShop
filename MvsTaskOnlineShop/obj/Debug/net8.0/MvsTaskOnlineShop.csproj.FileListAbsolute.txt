@@ -132,3 +132,4 @@ C:\Users\Nicat\Desktop\MvsTaskOnlineShop\MvsTaskOnlineShop\obj\Debug\net8.0\ref\
 C:\Users\Nicat\Desktop\MvsTaskOnlineShop\MvsTaskOnlineShop\obj\Debug\net8.0\MvsTaskOnlineShop.RazorAssemblyInfo.cache
 C:\Users\Nicat\Desktop\MvsTaskOnlineShop\MvsTaskOnlineShop\obj\Debug\net8.0\MvsTaskOnlineShop.RazorAssemblyInfo.cs
 C:\Users\Nicat\Desktop\MvsTaskOnlineShop\MvsTaskOnlineShop\bin\Debug\net8.0\MvsTaskOnlineShop.staticwebassets.runtime.json
+C:\Users\Nicat\Desktop\MvsTaskOnlineShop\MvsTaskOnlineShop\obj\Debug\net8.0\MvsTaskOnlineShop.sourcelink.json

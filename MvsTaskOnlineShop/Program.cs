@@ -1,4 +1,6 @@
 using Microsoft.AspNetCore.Builder;
+using Microsoft.EntityFrameworkCore;
+using MvsTaskOnlineShop.Data;
 
 namespace MvsTaskOnlineShop
 {
@@ -16,6 +18,10 @@ namespace MvsTaskOnlineShop
             builder.Services.AddRazorPages();
             builder.Services.AddControllersWithViews();
 
+            builder.Services.AddDbContext<AppDbContext>(options =>
+            {
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+            });
             var app = builder.Build();
             app.UseSession();
             app.UseStaticFiles();
