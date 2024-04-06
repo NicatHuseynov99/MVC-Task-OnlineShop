@@ -13,5 +13,6 @@
         public List<Size> Sizes { get; set;}
         public int ColorId { get; set; }
         public Color Color { get; set; }
+        public bool Featured { get; set; }
     }
 }

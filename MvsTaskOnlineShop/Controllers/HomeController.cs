@@ -16,10 +16,16 @@ namespace MvsTaskOnlineShop.Controllers
         {
             List<Category> categories = _context.Categories.ToList();
             List<Product> products = _context.Products.ToList();
+            List<Partner> partners= _context.Partners.ToList();
+            List<Carousel> carousels = _context.Carousels.ToList();
+            List<Offer> offers = _context.Offers.ToList();
             HomeVM model = new ()
             {
                 Categories = categories,
                 Products = products,
+                Partners = partners,
+                Offers = offers,
+                Carousels = carousels
             };
             return View(model);
         }

@@ -12,5 +12,8 @@ namespace MvsTaskOnlineShop.Data
         public DbSet<Product> Products { get; set; }
         public DbSet<Size> Sizes { get; set; }
         public DbSet<Color> Colors { get; set; }
+        public DbSet<Partner> Partners { get; set; }
+        public DbSet<Offer> Offers { get; set; }
+        public DbSet<Carousel> Carousels { get; set; }
     }
 }

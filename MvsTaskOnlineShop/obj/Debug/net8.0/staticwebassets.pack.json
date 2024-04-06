@@ -85,6 +85,42 @@
       "PackagePath": "staticwebassets\\img\\offers\\offer-2.jpg"
     },
     {
+      "Id": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\wwwroot\\img\\partners\\vendor-1.jpg",
+      "PackagePath": "staticwebassets\\img\\partners\\vendor-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\wwwroot\\img\\partners\\vendor-2.jpg",
+      "PackagePath": "staticwebassets\\img\\partners\\vendor-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\wwwroot\\img\\partners\\vendor-3.jpg",
+      "PackagePath": "staticwebassets\\img\\partners\\vendor-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\wwwroot\\img\\partners\\vendor-4.jpg",
+      "PackagePath": "staticwebassets\\img\\partners\\vendor-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\wwwroot\\img\\partners\\vendor-5.jpg",
+      "PackagePath": "staticwebassets\\img\\partners\\vendor-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\wwwroot\\img\\partners\\vendor-6.jpg",
+      "PackagePath": "staticwebassets\\img\\partners\\vendor-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\wwwroot\\img\\partners\\vendor-7.jpg",
+      "PackagePath": "staticwebassets\\img\\partners\\vendor-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\wwwroot\\img\\partners\\vendor-8.jpg",
+      "PackagePath": "staticwebassets\\img\\partners\\vendor-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\wwwroot\\img\\partners\\vendor-9.jpg",
+      "PackagePath": "staticwebassets\\img\\partners\\vendor-9.jpg"
+    },
+    {
       "Id": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\wwwroot\\img\\payments.png",
       "PackagePath": "staticwebassets\\img\\payments.png"
     },
@@ -95,38 +131,6 @@
     {
       "Id": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\wwwroot\\img\\users\\user.jpg",
       "PackagePath": "staticwebassets\\img\\users\\user.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\wwwroot\\img\\vendors\\vendor-1.jpg",
-      "PackagePath": "staticwebassets\\img\\vendors\\vendor-1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\wwwroot\\img\\vendors\\vendor-2.jpg",
-      "PackagePath": "staticwebassets\\img\\vendors\\vendor-2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\wwwroot\\img\\vendors\\vendor-3.jpg",
-      "PackagePath": "staticwebassets\\img\\vendors\\vendor-3.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\wwwroot\\img\\vendors\\vendor-4.jpg",
-      "PackagePath": "staticwebassets\\img\\vendors\\vendor-4.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\wwwroot\\img\\vendors\\vendor-5.jpg",
-      "PackagePath": "staticwebassets\\img\\vendors\\vendor-5.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\wwwroot\\img\\vendors\\vendor-6.jpg",
-      "PackagePath": "staticwebassets\\img\\vendors\\vendor-6.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\wwwroot\\img\\vendors\\vendor-7.jpg",
-      "PackagePath": "staticwebassets\\img\\vendors\\vendor-7.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\wwwroot\\img\\vendors\\vendor-8.jpg",
-      "PackagePath": "staticwebassets\\img\\vendors\\vendor-8.jpg"
     },
     {
       "Id": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\wwwroot\\js\\main.js",
