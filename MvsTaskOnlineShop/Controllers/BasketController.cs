@@ -38,8 +38,6 @@ namespace MvsTaskOnlineShop.Controllers
             return View(products);
         }
 
-
-
         [HttpPost]
         public async Task<IActionResult> AddBasket(int id)
         {

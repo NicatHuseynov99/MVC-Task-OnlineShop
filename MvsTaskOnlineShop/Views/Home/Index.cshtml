@@ -111,8 +111,8 @@
                         <div class="product-img position-relative overflow-hidden">
                             <img class="img-fluid w-100" src="img/products/@item.Image" alt="">
                             <div class="product-action">
-                                <form class="btn btn-outline-dark btn-square" asp-controller="Basket" asp-action="AddBasket" asp-route-id="@item.Id" method="post"><button type="submit"><i class="fa fa-shopping-cart"></i></button></form>
-                                <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                                <form class="btn btn-outline-dark btn-square" asp-controller="Basket" asp-action="AddBasket" asp-route-id="@item.Id" method="post"><button type="submit" class="btn btn-outline-dark btn-square"><i class="fa fa-shopping-cart"></i></button></form>
+                                <form class="btn btn-outline-dark btn-square" asp-controller="Heart" asp-action="AddHeart" asp-route-id="@item.Id" method="post"><button type="submit" class="btn btn-outline-dark btn-square"><i class="far fa-heart"></i></button></form>
                                 <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
                                 <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
                             </div>
