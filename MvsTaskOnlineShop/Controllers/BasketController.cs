@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MvsTaskOnlineShop.Data;
 using MvsTaskOnlineShop.Models;
@@ -32,6 +33,8 @@ namespace MvsTaskOnlineShop.Controllers
                     Price = product.Price,
                     Image = product.Image,
                     Count = item.Count,
+                    SizeName=item.SizeName,
+                    ColorName=item.ColorName,
                 };
                 products.Add(basketProduct);
             }
@@ -39,30 +42,45 @@ namespace MvsTaskOnlineShop.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddBasket(int id)
+        public async Task<IActionResult> AddBasket(int id, int? sizeId, int? colorId, int productCount = 1)
         {
-            Product? product = await _context.Products.FirstOrDefaultAsync(m => m.Id == id);
+            Product? product = await _context.Products.Include(x=>x.Sizes).Include(x=>x.Colors).FirstOrDefaultAsync(m => m.Id == id);
             if (product == null)
             {
                 return NotFound();
             }
-            await UpdateBasket(id);
+            await UpdateBasket(id, sizeId, colorId, productCount,product);
 
             return RedirectToAction("Index");
         }
-        public Task UpdateBasket(int id)
+        public Task UpdateBasket(int id, int? sizeId, int? colorId, int productCount,Product product)
         {
             List<BasketVM> basket = GetBasket();
-            BasketVM exitsProduct = basket.FirstOrDefault(m => m.Id == id);
+            if (sizeId == null)
+            {
+                sizeId=product.Sizes.FirstOrDefault().Id;
+            }
+            if (colorId == null)
+            {
+                colorId = product.Colors.FirstOrDefault().Id;
+            }
+            string exitsSizeName = product.Sizes.FirstOrDefault(m => m.Id == sizeId).Name;
+            string exitsColorName = product.Colors.FirstOrDefault(m => m.Id == colorId).Name;
+            BasketVM exitsProduct = basket.FirstOrDefault(m => m.Id == id && m.SizeName==exitsSizeName && m.ColorName==exitsColorName);
             if (exitsProduct == null)
             {
-                basket.Add(new BasketVM { Id = id, Count = 1 });
+                basket.Add(new BasketVM
+                {
+                    Id = id,
+                    Count = productCount,
+                    SizeName = exitsSizeName,
+                    ColorName = exitsColorName,
+                });
             }
             else
             {
-                exitsProduct.Count++;
+                exitsProduct.Count += productCount;
             }
-
             Response.Cookies.Append("basket", JsonConvert.SerializeObject(basket));
 
             return Task.CompletedTask;

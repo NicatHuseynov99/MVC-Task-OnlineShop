@@ -1,4 +1,6 @@
-﻿namespace MvsTaskOnlineShop.ViewModels
+﻿using System.Drawing;
+
+namespace MvsTaskOnlineShop.ViewModels
 {
     public class BasketDetailVM
     {
@@ -7,5 +9,8 @@
         public string? Image { get; set; }
         public decimal Price { get; set; }
         public int Count { get; set; }
+        public string Description { get; set; }
+        public string SizeName { get; set; }
+        public string ColorName { get; set; }
     }
 }

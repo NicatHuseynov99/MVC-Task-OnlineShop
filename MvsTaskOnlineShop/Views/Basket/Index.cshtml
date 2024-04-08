@@ -12,6 +12,8 @@
                         <th>Products</th>
                         <th>Price</th>
                         <th>Quantity</th>
+                        <th>Size</th>
+                        <th>Color</th>
                         <th>Total</th>
                         <th>Remove</th>
                     </tr>
@@ -43,6 +45,8 @@
                                     </div>
                                 </div>
                             </td>
+                            <td class="align-middle">@item.SizeName</td>
+                            <td class="align-middle">@item.ColorName</td>
                             <td class="align-middle">$@(item.Price * item.Count)</td>
                             <td class="align-middle"><form asp-controller="Basket" asp-action="RemoveBasket" asp-route-id="@item.Id" method="post"><button type="submit" class="btn btn-sm btn-danger"><i class="fa fa-times"></i></button></form></td>
                         </tr>

@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MvsTaskOnlineShop.Data;
 
@@ -10,9 +11,11 @@ using MvsTaskOnlineShop.Data;
 namespace MvsTaskOnlineShop.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240408011446_ChangeProductTable")]
+    partial class ChangeProductTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -23,13 +26,13 @@ namespace MvsTaskOnlineShop.Migrations
 
             modelBuilder.Entity("ColorProduct", b =>
                 {
-                    b.Property<int>("ColorsId")
+                    b.Property<int>("ColorId")
                         .HasColumnType("int");
 
                     b.Property<int>("ProductsId")
                         .HasColumnType("int");
 
-                    b.HasKey("ColorsId", "ProductsId");
+                    b.HasKey("ColorId", "ProductsId");
 
                     b.HasIndex("ProductsId");
 
@@ -220,7 +223,7 @@ namespace MvsTaskOnlineShop.Migrations
                 {
                     b.HasOne("MvsTaskOnlineShop.Models.Color", null)
                         .WithMany()
-                        .HasForeignKey("ColorsId")
+                        .HasForeignKey("ColorId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
