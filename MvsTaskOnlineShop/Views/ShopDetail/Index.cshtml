@@ -33,7 +33,7 @@
                         @foreach (var item in Model.Sizes)
                         {
                             <div class="custom-control custom-radio custom-control-inline">
-                                <input type="radio" class="custom-control-input" value="@item.Id" id="@item.Name" name="size">
+                                <input type="radio" class="custom-control-input" value="@item.Name" id="@item.Name" name="size">
                                 <label class="custom-control-label" for="@item.Name">@item.Name</label>
                             </div>
                         }
@@ -45,7 +45,7 @@
                         @foreach (var item in Model.Colors)
                         {
                             <div class="custom-control custom-radio custom-control-inline">
-                                <input type="radio" class="custom-control-input" value="@item.Id" id="@item.Name" name="color">
+                                <input type="radio" class="custom-control-input" value="@item.Name" id="@item.Name" name="color">
                                 <label class="custom-control-label" for="@item.Name">@item.Name</label>
                             </div>
                         }
@@ -194,8 +194,8 @@
             dataType: 'json',
             data: {
                 id: id,
-                sizeId: selectedSize,
-                colorId: selectedColor,
+                sizeName: selectedSize,
+                colorName: selectedColor,
                 productCount: selectedCount
             }
         });

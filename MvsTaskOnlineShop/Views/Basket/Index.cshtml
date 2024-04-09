@@ -29,7 +29,7 @@
                             <td class="align-middle">
                                 <div class="input-group quantity mx-auto" style="width: 100px;">
                                     <div class="input-group-btn">
-                                        <form asp-controller="Basket" asp-action="ReduceBasket" asp-route-id="@item.Id" method="post">
+                                        <form asp-controller="Basket" asp-action="ReduceBasket" asp-route-id="@item.Id" asp-route-sizeName="@item.SizeName" asp-route-colorName="@item.ColorName" method="post">
                                             <button class="btn btn-sm btn-primary btn-minus">
                                                 <i class="fa fa-minus"></i>
                                             </button>
@@ -37,7 +37,7 @@
                                     </div>
                                     <input type="text" class="form-control form-control-sm bg-secondary border-0 text-center" value="@item.Count">
                                     <div class="input-group-btn">
-                                        <form asp-controller="Basket" asp-action="AddBasket" asp-route-id="@item.Id" method="post">
+                                        <form asp-controller="Basket" asp-action="AddBasket" asp-route-id="@item.Id" asp-route-sizeName="@item.SizeName" asp-route-colorName="@item.ColorName" method="post">
                                             <button type="submit" class="btn btn-sm btn-primary btn-plus">
                                                 <i class="fa fa-plus"></i>
                                             </button>

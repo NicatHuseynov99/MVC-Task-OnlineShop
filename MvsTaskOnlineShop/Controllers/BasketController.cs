@@ -42,39 +42,37 @@ namespace MvsTaskOnlineShop.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddBasket(int id, int? sizeId, int? colorId, int productCount = 1)
+        public async Task<IActionResult> AddBasket(int id, string? sizeName, string? colorName, int productCount = 1)
         {
             Product? product = await _context.Products.Include(x=>x.Sizes).Include(x=>x.Colors).FirstOrDefaultAsync(m => m.Id == id);
             if (product == null)
             {
                 return NotFound();
             }
-            await UpdateBasket(id, sizeId, colorId, productCount,product);
+            await UpdateBasket(id, sizeName, colorName, productCount,product);
 
             return RedirectToAction("Index");
         }
-        public Task UpdateBasket(int id, int? sizeId, int? colorId, int productCount,Product product)
+        public Task UpdateBasket(int id, string? sizeName, string? colorName, int productCount,Product product)
         {
             List<BasketVM> basket = GetBasket();
-            if (sizeId == null)
+            if (sizeName == null)
             {
-                sizeId=product.Sizes.FirstOrDefault().Id;
+                sizeName = product.Sizes.FirstOrDefault().Name;
             }
-            if (colorId == null)
+            if (colorName == null)
             {
-                colorId = product.Colors.FirstOrDefault().Id;
+                colorName = product.Colors.FirstOrDefault().Name;
             }
-            string exitsSizeName = product.Sizes.FirstOrDefault(m => m.Id == sizeId).Name;
-            string exitsColorName = product.Colors.FirstOrDefault(m => m.Id == colorId).Name;
-            BasketVM exitsProduct = basket.FirstOrDefault(m => m.Id == id && m.SizeName==exitsSizeName && m.ColorName==exitsColorName);
+            BasketVM exitsProduct = basket.FirstOrDefault(m => m.Id == id && m.SizeName==sizeName && m.ColorName==colorName);
             if (exitsProduct == null)
             {
                 basket.Add(new BasketVM
                 {
                     Id = id,
                     Count = productCount,
-                    SizeName = exitsSizeName,
-                    ColorName = exitsColorName,
+                    SizeName = sizeName,
+                    ColorName = colorName,
                 });
             }
             else
@@ -110,10 +108,10 @@ namespace MvsTaskOnlineShop.Controllers
             }
             return RedirectToAction("Index");
         }
-        public async Task<IActionResult> ReduceBasket(int id)
+        public async Task<IActionResult> ReduceBasket(int id, string? sizeName, string? colorName)
         {
             List<BasketVM> basket = GetBasket();
-            BasketVM exitsProduct = basket.FirstOrDefault(m => m.Id == id);
+            BasketVM exitsProduct = basket.FirstOrDefault(m => m.Id == id && m.SizeName == sizeName && m.ColorName == colorName);
             if (exitsProduct == null)
             {
                 return NotFound();
