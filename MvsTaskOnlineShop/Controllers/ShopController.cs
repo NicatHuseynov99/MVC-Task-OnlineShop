@@ -19,8 +19,9 @@ namespace MvsTaskOnlineShop.Controllers
                 .Skip((page - 1) * take)
                 .Take(take)
                 .ToList();
-            int count = (int)Math.Ceiling((decimal)_context.Products.Count() / take);
-            Pagination<Product> model = new Pagination<Product>(products, page, count);
+            int pageCount = (int)Math.Ceiling((decimal)_context.Products.Count() / take);
+            int count = 1 + ((page - 1) * take);
+            Pagination<Product> model = new Pagination<Product>(products, page, pageCount, count);
             return View(model);
         }
     }

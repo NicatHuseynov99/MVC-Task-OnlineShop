@@ -1,4 +1,6 @@
-﻿namespace MvsTaskOnlineShop.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace MvsTaskOnlineShop.Models
 {
     public class Product
     {
@@ -12,5 +14,7 @@
         public List<Size> Sizes { get; set; }
         public List<Color> Colors { get; set; }
         public bool Featured { get; set; }
+        [NotMapped]
+        public IFormFile? Photo { get; set; }
     }
 }
