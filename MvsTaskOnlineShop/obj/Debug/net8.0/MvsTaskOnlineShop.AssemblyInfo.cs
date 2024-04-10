@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MvsTaskOnlineShop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54091c3009887ed026edab14ee4b5cc9e0aef970")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+612b71d33b1323f2286e14ba96c86f986e6a53f7")]
 [assembly: System.Reflection.AssemblyProductAttribute("MvsTaskOnlineShop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MvsTaskOnlineShop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

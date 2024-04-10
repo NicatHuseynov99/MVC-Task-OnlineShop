@@ -8,8 +8,8 @@ namespace MvsTaskOnlineShop.Models
         public int Id { get; set; }
         [Required]
         public string Name { get; set; }
-        public string Image { get; set; }
-        public List<Product> Products { get; set; }
+        public string? Image { get; set; }
+        public List<Product>? Products { get; set; }
         public bool IsActive { get; set; }
         [NotMapped]
         [Required]
