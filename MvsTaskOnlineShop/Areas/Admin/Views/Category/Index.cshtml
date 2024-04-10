@@ -37,9 +37,15 @@
                                     </td>
                                     <td>
                                         <form method="post" class="d-inline" asp-action="Delete" asp-route-id="@item.Id"><button class="btn btn-danger">Delete</button></form>
-                                        <form method="post" class="d-inline ms-2" asp-action="Disable" asp-route-id="@item.Id"><button class="btn btn-secondary">Disable</button></form>
-                                        <form method="post" class="d-inline ms-2" asp-action="Active" asp-route-id="@item.Id"><button class="btn btn-success">Active</button></form>
                                         <a asp-action="Update" class="btn btn-warning ms-2" asp-route-id="@item.Id">Update</a>
+                                        @if (item.IsActive== true)
+                                        {
+                                            <form method="post" class="d-inline ms-2" asp-action="Disable" asp-route-id="@item.Id"><button class="btn btn-secondary">Disable</button></form>
+                                        }
+                                        else
+                                        {
+                                            <form method="post" class="d-inline ms-2" asp-action="Active" asp-route-id="@item.Id"><button class="btn btn-success">Active</button></form>
+                                        }
                                     </td>
                                 </tr>
                             }

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using MvsTaskOnlineShop.Data;
 using MvsTaskOnlineShop.Models;
 using MvsTaskOnlineShop.ViewModels;
@@ -14,8 +15,8 @@ namespace MvsTaskOnlineShop.Controllers
         }
         public IActionResult Index()
         {
-            List<Category> categories = _context.Categories.ToList();
-            List<Product> products = _context.Products.ToList();
+            List<Category> categories = _context.Categories.Where(m => m.IsActive == true).ToList();
+            List<Product> products = _context.Products.Where(m => m.Featured == true).ToList();
             List<Partner> partners= _context.Partners.ToList();
             List<Carousel> carousels = _context.Carousels.ToList();
             List<Offer> offers = _context.Offers.ToList();
