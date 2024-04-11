@@ -6169,6 +6169,10 @@
       "PackagePath": "staticwebassets\\img\\products\\product-1.jpg"
     },
     {
+      "Id": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\wwwroot\\img\\products\\product-2.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\product-2.jpg"
+    },
+    {
       "Id": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\wwwroot\\img\\users\\user.jpg",
       "PackagePath": "staticwebassets\\img\\users\\user.jpg"
     },

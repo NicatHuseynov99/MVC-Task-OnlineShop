@@ -33,8 +33,8 @@ namespace MvsTaskOnlineShop.Controllers
                     Price = product.Price,
                     Image = product.Image,
                     Count = item.Count,
-                    SizeName=item.SizeName,
-                    ColorName=item.ColorName,
+                    SizeName = item.SizeName,
+                    ColorName = item.ColorName,
                 };
                 products.Add(basketProduct);
             }
@@ -44,16 +44,24 @@ namespace MvsTaskOnlineShop.Controllers
         [HttpPost]
         public async Task<IActionResult> AddBasket(int id, string? sizeName, string? colorName, int productCount = 1)
         {
-            Product? product = await _context.Products.Include(x=>x.Sizes).Include(x=>x.Colors).FirstOrDefaultAsync(m => m.Id == id);
+            Product? product = await _context.Products.Include(x => x.Sizes).Include(x => x.Colors).FirstOrDefaultAsync(m => m.Id == id);
             if (product == null)
             {
                 return NotFound();
             }
-            await UpdateBasket(id, sizeName, colorName, productCount,product);
+            if (product.Sizes.Count == 0)
+            {
+                return RedirectToAction("Index");
+            }
+            if (product.Colors.Count == 0)
+            {
+                return RedirectToAction("Index");
+            }
+            await UpdateBasket(id, sizeName, colorName, productCount, product);
 
             return RedirectToAction("Index");
         }
-        public Task UpdateBasket(int id, string? sizeName, string? colorName, int productCount,Product product)
+        public Task UpdateBasket(int id, string? sizeName, string? colorName, int productCount, Product product)
         {
             List<BasketVM> basket = GetBasket();
             if (sizeName == null)
@@ -64,7 +72,7 @@ namespace MvsTaskOnlineShop.Controllers
             {
                 colorName = product.Colors.FirstOrDefault().Name;
             }
-            BasketVM exitsProduct = basket.FirstOrDefault(m => m.Id == id && m.SizeName==sizeName && m.ColorName==colorName);
+            BasketVM exitsProduct = basket.FirstOrDefault(m => m.Id == id && m.SizeName == sizeName && m.ColorName == colorName);
             if (exitsProduct == null)
             {
                 basket.Add(new BasketVM

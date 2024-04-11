@@ -27,7 +27,7 @@
                                     <td>@(Model.Count++)</td>
                                     <td>@item.Name</td>
                                     <td>@item.Price $</td>
-                                    <td><img src="~/img/products/@item.Image"/></td>
+                                    <td><img src="~/img/products/@item.Image" /></td>
                                     <td>
                                         @if (item.Featured == true)
                                         {
@@ -42,7 +42,7 @@
                                         @item.Category.Name
                                     </td>
                                     <td>
-                                        <a asp-action="Read" class="btn btn-info ms-2" asp-route-id="@item.Id">Info</a>
+                                        <a asp-controller="Product" asp-action="Read" class="btn btn-info ms-2" asp-route-id="@item.Id">Info</a>
                                         <form method="post" class="d-inline" asp-action="Delete" asp-route-id="@item.Id"><button class="btn btn-danger">Delete</button></form>
                                         <a asp-action="Update" class="btn btn-warning ms-2" asp-route-id="@item.Id">Update</a>
                                         @if (item.Featured == true)

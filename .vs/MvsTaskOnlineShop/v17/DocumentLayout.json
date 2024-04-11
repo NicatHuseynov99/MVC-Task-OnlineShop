@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7008ADDD-57A1-42C8-895C-BC500F2314AA}|MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj|c:\\users\\nicat\\desktop\\mvstaskonlineshop\\mvstaskonlineshop\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7008ADDD-57A1-42C8-895C-BC500F2314AA}|MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj|solutionrelative:mvstaskonlineshop\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7008ADDD-57A1-42C8-895C-BC500F2314AA}|MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj|c:\\users\\nicat\\desktop\\mvstaskonlineshop\\mvstaskonlineshop\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7008ADDD-57A1-42C8-895C-BC500F2314AA}|MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj|solutionrelative:mvstaskonlineshop\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7008ADDD-57A1-42C8-895C-BC500F2314AA}|MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj|c:\\users\\nicat\\desktop\\mvstaskonlineshop\\mvstaskonlineshop\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7008ADDD-57A1-42C8-895C-BC500F2314AA}|MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj|solutionrelative:mvstaskonlineshop\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7008ADDD-57A1-42C8-895C-BC500F2314AA}|MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj|c:\\users\\nicat\\desktop\\mvstaskonlineshop\\mvstaskonlineshop\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7008ADDD-57A1-42C8-895C-BC500F2314AA}|MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj|solutionrelative:mvstaskonlineshop\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\Migrations\\20240411155123_ProductTableChange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MvsTaskOnlineShop\\Migrations\\20240411155123_ProductTableChange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,36 +34,59 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "RelativeDocumentMoniker": "MvsTaskOnlineShop\\Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "RelativeToolTip": "MvsTaskOnlineShop\\Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-10T15:11:41.592Z",
+              "DocumentIndex": 3,
+              "Title": "20240411155123_ProductTableChange.cs",
+              "DocumentMoniker": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\Migrations\\20240411155123_ProductTableChange.cs",
+              "RelativeDocumentMoniker": "MvsTaskOnlineShop\\Migrations\\20240411155123_ProductTableChange.cs",
+              "ToolTip": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\Migrations\\20240411155123_ProductTableChange.cs",
+              "RelativeToolTip": "MvsTaskOnlineShop\\Migrations\\20240411155123_ProductTableChange.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T15:51:23.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "MvsTaskOnlineShop\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\Models\\Product.cs",
+              "RelativeToolTip": "MvsTaskOnlineShop\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T15:48:06.617Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "MvsTaskOnlineShop\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "MvsTaskOnlineShop\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADEAAAB1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T15:45:28.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\Areas\\Admin\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "MvsTaskOnlineShop\\Areas\\Admin\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\Areas\\Admin\\Controllers\\ProductController.cs",
               "RelativeToolTip": "MvsTaskOnlineShop\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAtAAAA",
+              "ViewState": "AQIAADsAAAAAAAAAAAAIwEgAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T15:11:24.533Z"
+              "WhenOpened": "2024-04-11T15:31:10.956Z",
+              "EditorCaption": ""
             }
           ]
         }

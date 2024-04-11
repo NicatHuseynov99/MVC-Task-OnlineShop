@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9rd4nh2TL3a1UhQwm86Chmp1VU9fyOYdt+96Y13oYLQ=",
+  "Hash": "HyS2srqRfHBme5Cxt3gTdyO8bLeuNKzh8o7LW60B0iI=",
   "Source": "MvsTaskOnlineShop",
   "BasePath": "_content/MvsTaskOnlineShop",
   "Mode": "Default",
@@ -29313,6 +29313,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\products\\product-1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\wwwroot\\img\\products\\product-2.jpg",
+      "SourceId": "MvsTaskOnlineShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\wwwroot\\",
+      "BasePath": "_content/MvsTaskOnlineShop",
+      "RelativePath": "img/products/product-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\products\\product-2.jpg"
     },
     {
       "Identity": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\wwwroot\\img\\users\\user.jpg",

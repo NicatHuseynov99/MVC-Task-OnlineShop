@@ -116,20 +116,25 @@
                                 <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
                             </div>
                         </div>
-                            <div class="text-center py-4">
-                                <a asp-controller="ShopDetail" asp-action="Index" asp-route-id="@item.Id" class="h6 text-decoration-none text-truncate">@item.Name</a>
-                                <div class="d-flex align-items-center justify-content-center mt-2">
-                                    <h5>$@item.Price</h5><h6 class="text-muted ml-2"><del>$@item.OldPrice</del></h6>
-                                </div>
-                                <div class="d-flex align-items-center justify-content-center mb-1">
-                                    <small class="fa fa-star text-primary mr-1"></small>
-                                    <small class="fa fa-star text-primary mr-1"></small>
-                                    <small class="fa fa-star text-primary mr-1"></small>
-                                    <small class="fa fa-star text-primary mr-1"></small>
-                                    <small class="fa fa-star text-primary mr-1"></small>
-                                    <small>(99)</small>
-                                </div>
+                        <div class="text-center py-4">
+                            <a asp-controller="ShopDetail" asp-action="Index" asp-route-id="@item.Id" class="h6 text-decoration-none text-truncate">@item.Name</a>
+                            <div class="d-flex align-items-center justify-content-center mt-2">
+                                <h5>$@item.Price</h5><h6 class="text-muted ml-2">
+                                    @if (item.OldPrice != null)
+                                    {
+                                        <del>$@item.OldPrice</del>
+                                    }
+                                </h6>
                             </div>
+                            <div class="d-flex align-items-center justify-content-center mb-1">
+                                <small class="fa fa-star text-primary mr-1"></small>
+                                <small class="fa fa-star text-primary mr-1"></small>
+                                <small class="fa fa-star text-primary mr-1"></small>
+                                <small class="fa fa-star text-primary mr-1"></small>
+                                <small class="fa fa-star text-primary mr-1"></small>
+                                <small>(99)</small>
+                            </div>
+                        </div>
                     </div>
                 </div>
             }
