@@ -17,6 +17,7 @@ namespace MvsTaskOnlineShop.Areas.Admin.Controllers
             _userManager = userManager;
             _signInManager = signInManager;
         }
+        [Authorize]
         public IActionResult Index()
         {
             return View();
@@ -73,6 +74,13 @@ namespace MvsTaskOnlineShop.Areas.Admin.Controllers
                 ModelState.AddModelError("", "Email or password is wrong");
                 return View();
             }
+            return RedirectToAction("Index");
+        }
+        [HttpPost]
+        public async Task<IActionResult> LogOut()
+        {
+            await _signInManager.SignOutAsync();
+
             return RedirectToAction("Index");
         }
     }
