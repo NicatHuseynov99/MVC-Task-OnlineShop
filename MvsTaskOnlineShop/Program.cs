@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using MvsTaskOnlineShop.Data;
+using MvsTaskOnlineShop.Models;
 
 namespace MvsTaskOnlineShop
 {
@@ -15,6 +17,31 @@ namespace MvsTaskOnlineShop
                 option.Cookie.HttpOnly = true;
                 option.Cookie.IsEssential = true;
             });
+
+            builder.Services.AddIdentity<AppUser, IdentityRole>()
+             .AddEntityFrameworkStores<AppDbContext>()
+             .AddDefaultTokenProviders();
+
+            builder.Services.Configure<IdentityOptions>(options =>
+            {
+                options.Password.RequiredLength = 8;
+                options.Password.RequireDigit = true;
+                options.Password.RequireLowercase = true;
+
+                options.User.RequireUniqueEmail = true;
+
+                options.Lockout.MaxFailedAccessAttempts = 5;
+                options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
+                options.Lockout.AllowedForNewUsers = true;
+            });
+            builder.Services.ConfigureApplicationCookie(options =>
+            {
+                options.Cookie.HttpOnly = true;
+                options.ExpireTimeSpan = TimeSpan.FromMinutes(120);
+
+                options.LoginPath = "/Admin/Dashboard/Login";
+            });
+
             builder.Services.AddRazorPages();
             builder.Services.AddControllersWithViews();
 
@@ -26,6 +53,9 @@ namespace MvsTaskOnlineShop
             app.UseSession();
             app.UseStaticFiles();
             app.UseRouting();
+
+            app.UseAuthentication();
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
