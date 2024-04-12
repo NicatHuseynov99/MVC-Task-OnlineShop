@@ -6641,6 +6641,10 @@
       "PackagePath": "staticwebassets\\scss\\style.scss"
     },
     {
+      "Id": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\wwwroot\\templates\\mail.html",
+      "PackagePath": "staticwebassets\\templates\\mail.html"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MvsTaskOnlineShop.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

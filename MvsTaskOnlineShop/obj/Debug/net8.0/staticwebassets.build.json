@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SLFpiZQd24lj/atvUqRVY0SDhIRoet1kmVfKFFffBrQ=",
+  "Hash": "xD3HOUExzeO7mVvMKhvvpE1s6IXD0FCYYdXhaAIAwn0=",
   "Source": "MvsTaskOnlineShop",
   "BasePath": "_content/MvsTaskOnlineShop",
   "Mode": "Default",
@@ -31555,6 +31555,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\scss\\style.scss"
+    },
+    {
+      "Identity": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\wwwroot\\templates\\mail.html",
+      "SourceId": "MvsTaskOnlineShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\wwwroot\\",
+      "BasePath": "_content/MvsTaskOnlineShop",
+      "RelativePath": "templates/mail.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\templates\\mail.html"
     }
   ]
 }

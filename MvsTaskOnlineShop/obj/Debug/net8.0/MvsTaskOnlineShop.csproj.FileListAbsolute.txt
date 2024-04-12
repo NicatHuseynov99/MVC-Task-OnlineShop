@@ -255,3 +255,6 @@ C:\Users\Nicat\Desktop\MvsTaskOnlineShop\MvsTaskOnlineShop\bin\Debug\net8.0\Micr
 C:\Users\Nicat\Desktop\MvsTaskOnlineShop\MvsTaskOnlineShop\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\Nicat\Desktop\MvsTaskOnlineShop\MvsTaskOnlineShop\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\Nicat\Desktop\MvsTaskOnlineShop\MvsTaskOnlineShop\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Nicat\Desktop\MvsTaskOnlineShop\MvsTaskOnlineShop\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\Nicat\Desktop\MvsTaskOnlineShop\MvsTaskOnlineShop\bin\Debug\net8.0\MailKit.dll
+C:\Users\Nicat\Desktop\MvsTaskOnlineShop\MvsTaskOnlineShop\bin\Debug\net8.0\MimeKit.dll
