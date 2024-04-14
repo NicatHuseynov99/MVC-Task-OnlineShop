@@ -11,6 +11,7 @@ using SignInResult = Microsoft.AspNetCore.Identity.SignInResult;
 namespace MvsTaskOnlineShop.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class DashboardController : Controller
     {
         private readonly UserManager<AppUser> _userManager;
@@ -59,6 +60,7 @@ namespace MvsTaskOnlineShop.Areas.Admin.Controllers
                 }
                 return View(model);
             }
+            await _userManager.AddToRoleAsync(newUser, UserRoles.Member.ToString());
             return RedirectToAction("Login");
         }
         public IActionResult Login()
