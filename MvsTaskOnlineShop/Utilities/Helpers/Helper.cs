@@ -13,9 +13,10 @@
                 System.IO.File.Delete(path);
             }
         }
-
-        internal class DeletePath
+        public enum UserRoles
         {
+            Member,
+            Admin
         }
     }
 }

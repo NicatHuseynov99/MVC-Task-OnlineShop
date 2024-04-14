@@ -6,6 +6,7 @@ using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pag
 using MimeKit;
 using MvsTaskOnlineShop.Models;
 using MvsTaskOnlineShop.ViewModels.Account;
+using static MvsTaskOnlineShop.Utilities.Helpers.Helper;
 using SignInResult = Microsoft.AspNetCore.Identity.SignInResult;
 namespace MvsTaskOnlineShop.Areas.Admin.Controllers
 {
@@ -15,13 +16,16 @@ namespace MvsTaskOnlineShop.Areas.Admin.Controllers
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
         private readonly IWebHostEnvironment _env;
+        private readonly RoleManager<IdentityRole> _roleManager;
         public DashboardController(UserManager<AppUser> userManager,
            SignInManager<AppUser> signInManager,
-           IWebHostEnvironment env)
+           IWebHostEnvironment env,
+           RoleManager<IdentityRole> roleManager)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _env = env;
+            _roleManager = roleManager;
         }
         [Authorize]
         public IActionResult Index()
@@ -161,6 +165,25 @@ namespace MvsTaskOnlineShop.Areas.Admin.Controllers
 
 
             return RedirectToAction("Login");
+        }
+        public async Task CreateRole()
+        {
+            foreach (var item in Enum.GetValues(typeof(UserRoles)))
+            {
+                if (!await _roleManager.RoleExistsAsync(item.ToString()))
+                {
+                    await _roleManager.CreateAsync(new IdentityRole { Name = item.ToString() });
+                }
+            }
+        }
+        public async Task CreateAdmin()
+        {
+            var user = await _userManager.FindByEmailAsync("nicat-59@mail.ru");
+            if (user != null)
+            {
+                await _userManager.RemoveFromRoleAsync(user, UserRoles.Member.ToString());
+                await _userManager.AddToRoleAsync(user, UserRoles.Admin.ToString());
+            }
         }
     }
 }
