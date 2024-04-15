@@ -11,7 +11,6 @@ using SignInResult = Microsoft.AspNetCore.Identity.SignInResult;
 namespace MvsTaskOnlineShop.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize(Roles = "Admin")]
     public class DashboardController : Controller
     {
         private readonly UserManager<AppUser> _userManager;
@@ -33,12 +32,14 @@ namespace MvsTaskOnlineShop.Areas.Admin.Controllers
         {
             return View();
         }
+        [AllowAnonymous]
         public IActionResult Register()
         {
             return View();
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [AllowAnonymous]
         public async Task<IActionResult> Register(RegisterVM model)
         {
             if (!ModelState.IsValid)
@@ -63,11 +64,13 @@ namespace MvsTaskOnlineShop.Areas.Admin.Controllers
             await _userManager.AddToRoleAsync(newUser, UserRoles.Member.ToString());
             return RedirectToAction("Login");
         }
+        [AllowAnonymous]
         public IActionResult Login()
         {
             return View();
         }
         [HttpPost]
+        [AllowAnonymous]
         public async Task<IActionResult> Login(LoginVM model)
         {
             if (!ModelState.IsValid)

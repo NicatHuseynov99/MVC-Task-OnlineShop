@@ -3,7 +3,6 @@ using Microsoft.EntityFrameworkCore;
 using MvsTaskOnlineShop.Data;
 using MvsTaskOnlineShop.Models;
 using MvsTaskOnlineShop.ViewModels;
-
 namespace MvsTaskOnlineShop.Controllers
 {
     public class HomeController : Controller
@@ -17,7 +16,7 @@ namespace MvsTaskOnlineShop.Controllers
         {
             List<Category> categories = _context.Categories.Where(m => m.IsActive == true).ToList();
             List<Product> products = _context.Products.Where(m => m.Featured == true).ToList();
-            List<Partner> partners= _context.Partners.ToList();
+            List<Partner> partners= _context.Partners.Where(m => m.IsActive == true).ToList();
             List<Carousel> carousels = _context.Carousels.ToList();
             List<Offer> offers = _context.Offers.ToList();
             HomeVM model = new ()

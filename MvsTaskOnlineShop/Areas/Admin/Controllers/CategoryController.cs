@@ -24,7 +24,7 @@ namespace MvsTaskOnlineShop.Areas.Admin.Controllers
         {
             int number = 1 + (page - 1) * take;
             List<Category> categories = _context.Categories
-                .OrderByDescending(m => m.Id)
+            .OrderByDescending(m => m.Id)
             .Skip((page - 1) * take)
             .Take(take)
                 .ToList(); ;
