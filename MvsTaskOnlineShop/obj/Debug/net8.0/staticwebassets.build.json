@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/54Q1AnAGkDO107pNSczT5N8dE2Ye9Pccapw2jGya2Y=",
+  "Hash": "15wa5lOCMilajOWarToqWoQ1Re8xL0AYNAbyN2ILUGg=",
   "Source": "MvsTaskOnlineShop",
   "BasePath": "_content/MvsTaskOnlineShop",
   "Mode": "Default",
@@ -29068,12 +29068,12 @@
       "OriginalItemSpec": "wwwroot\\img\\categories\\cat-8.jpg"
     },
     {
-      "Identity": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\wwwroot\\img\\offers\\offer-1.jpg",
+      "Identity": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\wwwroot\\img\\offers\\5becc68b-6314-401a-9d39-7864a924ad63_fruit-delivered-1080x675.jpg",
       "SourceId": "MvsTaskOnlineShop",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\wwwroot\\",
       "BasePath": "_content/MvsTaskOnlineShop",
-      "RelativePath": "img/offers/offer-1.jpg",
+      "RelativePath": "img/offers/5becc68b-6314-401a-9d39-7864a924ad63_fruit-delivered-1080x675.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -29084,26 +29084,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\offers\\offer-1.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\wwwroot\\img\\offers\\offer-2.jpg",
-      "SourceId": "MvsTaskOnlineShop",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\wwwroot\\",
-      "BasePath": "_content/MvsTaskOnlineShop",
-      "RelativePath": "img/offers/offer-2.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\offers\\offer-2.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\offers\\5becc68b-6314-401a-9d39-7864a924ad63_fruit-delivered-1080x675.jpg"
     },
     {
       "Identity": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\wwwroot\\img\\partners\\vendor-1.jpg",

@@ -18,7 +18,7 @@ namespace MvsTaskOnlineShop.Controllers
             List<Product> products = _context.Products.Where(m => m.Featured == true).ToList();
             List<Partner> partners= _context.Partners.Where(m => m.IsActive == true).ToList();
             List<Carousel> carousels = _context.Carousels.ToList();
-            List<Offer> offers = _context.Offers.ToList();
+            List<Offer> offers = _context.Offers.Where(m => m.IsActive == true).ToList();
             HomeVM model = new ()
             {
                 Categories = categories,
