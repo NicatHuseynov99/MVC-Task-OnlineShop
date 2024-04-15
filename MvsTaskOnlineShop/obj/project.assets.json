@@ -8181,11 +8181,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj",
+      "projectUniqueName": "C:\\Users\\Nicat\\Desktop\\MVC-Task-OnlineShop\\MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj",
       "projectName": "MvsTaskOnlineShop",
-      "projectPath": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj",
+      "projectPath": "C:\\Users\\Nicat\\Desktop\\MVC-Task-OnlineShop\\MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj",
       "packagesPath": "C:\\Users\\Nicat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\obj\\",
+      "outputPath": "C:\\Users\\Nicat\\Desktop\\MVC-Task-OnlineShop\\MvsTaskOnlineShop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nicat\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zq47JO6xkJsWWhICGoadBktAl83EHPVZ3OVnZhStSMoXvkTO6KllzYdV3RLCW44kfiVPjWa7aO28qm14b5imMA==",
+  "dgSpecHash": "t7BKyiopt7yUlRB4sje4rfRWudfMJXZV+sv5C0iHAhjo/NawwQswq3LrlJQZfakMIZbHDIrnvj2Nb/xvjnA7aQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj",
+  "projectFilePath": "C:\\Users\\Nicat\\Desktop\\MVC-Task-OnlineShop\\MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nicat\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Nicat\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\",
+  "WorkspaceRootPath": "C:\\Users\\Nicat\\Desktop\\MVC-Task-OnlineShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7008ADDD-57A1-42C8-895C-BC500F2314AA}|MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj|c:\\users\\nicat\\desktop\\mvstaskonlineshop\\mvstaskonlineshop\\areas\\admin\\controllers\\sizecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7008ADDD-57A1-42C8-895C-BC500F2314AA}|MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj|solutionrelative:mvstaskonlineshop\\areas\\admin\\controllers\\sizecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7008ADDD-57A1-42C8-895C-BC500F2314AA}|MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj|c:\\users\\nicat\\desktop\\mvc-task-onlineshop\\mvstaskonlineshop\\views\\shared\\components\\topbar\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7008ADDD-57A1-42C8-895C-BC500F2314AA}|MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj|solutionrelative:mvstaskonlineshop\\views\\shared\\components\\topbar\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7008ADDD-57A1-42C8-895C-BC500F2314AA}|MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj|c:\\users\\nicat\\desktop\\mvstaskonlineshop\\mvstaskonlineshop\\areas\\admin\\controllers\\colorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7008ADDD-57A1-42C8-895C-BC500F2314AA}|MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj|solutionrelative:mvstaskonlineshop\\areas\\admin\\controllers\\colorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7008ADDD-57A1-42C8-895C-BC500F2314AA}|MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj|c:\\users\\nicat\\desktop\\mvc-task-onlineshop\\mvstaskonlineshop\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7008ADDD-57A1-42C8-895C-BC500F2314AA}|MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj|solutionrelative:mvstaskonlineshop\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7008ADDD-57A1-42C8-895C-BC500F2314AA}|MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj|c:\\users\\nicat\\desktop\\mvc-task-onlineshop\\mvstaskonlineshop\\viewcomponents\\topbarviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7008ADDD-57A1-42C8-895C-BC500F2314AA}|MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj|solutionrelative:mvstaskonlineshop\\viewcomponents\\topbarviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,21 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SizeController.cs",
-              "DocumentMoniker": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\Areas\\Admin\\Controllers\\SizeController.cs",
-              "RelativeDocumentMoniker": "MvsTaskOnlineShop\\Areas\\Admin\\Controllers\\SizeController.cs",
-              "ToolTip": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\Areas\\Admin\\Controllers\\SizeController.cs",
-              "RelativeToolTip": "MvsTaskOnlineShop\\Areas\\Admin\\Controllers\\SizeController.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAgwDoAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T03:01:02.887Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -43,16 +34,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ColorController.cs",
-              "DocumentMoniker": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\Areas\\Admin\\Controllers\\ColorController.cs",
-              "RelativeDocumentMoniker": "MvsTaskOnlineShop\\Areas\\Admin\\Controllers\\ColorController.cs",
-              "ToolTip": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\Areas\\Admin\\Controllers\\ColorController.cs",
-              "RelativeToolTip": "MvsTaskOnlineShop\\Areas\\Admin\\Controllers\\ColorController.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAIwDoAAAAXAAAA",
+              "DocumentIndex": 2,
+              "Title": "TopbarViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\Nicat\\Desktop\\MVC-Task-OnlineShop\\MvsTaskOnlineShop\\ViewComponents\\TopbarViewComponent.cs",
+              "RelativeDocumentMoniker": "MvsTaskOnlineShop\\ViewComponents\\TopbarViewComponent.cs",
+              "ToolTip": "C:\\Users\\Nicat\\Desktop\\MVC-Task-OnlineShop\\MvsTaskOnlineShop\\ViewComponents\\TopbarViewComponent.cs",
+              "RelativeToolTip": "MvsTaskOnlineShop\\ViewComponents\\TopbarViewComponent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T03:00:58.055Z",
+              "WhenOpened": "2024-04-15T16:04:06.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nicat\\Desktop\\MVC-Task-OnlineShop\\MvsTaskOnlineShop\\Views\\Shared\\Components\\Topbar\\Default.cshtml",
+              "RelativeDocumentMoniker": "MvsTaskOnlineShop\\Views\\Shared\\Components\\Topbar\\Default.cshtml",
+              "ToolTip": "C:\\Users\\Nicat\\Desktop\\MVC-Task-OnlineShop\\MvsTaskOnlineShop\\Views\\Shared\\Components\\Topbar\\Default.cshtml",
+              "RelativeToolTip": "MvsTaskOnlineShop\\Views\\Shared\\Components\\Topbar\\Default.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-15T16:03:34.98Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Nicat\\Desktop\\MVC-Task-OnlineShop\\MvsTaskOnlineShop\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "MvsTaskOnlineShop\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Nicat\\Desktop\\MVC-Task-OnlineShop\\MvsTaskOnlineShop\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "MvsTaskOnlineShop\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAuwGUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T15:02:30.169Z"
             }
           ]
         }
