@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7008ADDD-57A1-42C8-895C-BC500F2314AA}|MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj|c:\\users\\nicat\\desktop\\mvstaskonlineshop\\mvstaskonlineshop\\areas\\admin\\controllers\\sizecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7008ADDD-57A1-42C8-895C-BC500F2314AA}|MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj|solutionrelative:mvstaskonlineshop\\areas\\admin\\controllers\\sizecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7008ADDD-57A1-42C8-895C-BC500F2314AA}|MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj|c:\\users\\nicat\\desktop\\mvstaskonlineshop\\mvstaskonlineshop\\areas\\admin\\controllers\\colorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7008ADDD-57A1-42C8-895C-BC500F2314AA}|MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj|solutionrelative:mvstaskonlineshop\\areas\\admin\\controllers\\colorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SizeController.cs",
+              "DocumentMoniker": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\Areas\\Admin\\Controllers\\SizeController.cs",
+              "RelativeDocumentMoniker": "MvsTaskOnlineShop\\Areas\\Admin\\Controllers\\SizeController.cs",
+              "ToolTip": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\Areas\\Admin\\Controllers\\SizeController.cs",
+              "RelativeToolTip": "MvsTaskOnlineShop\\Areas\\Admin\\Controllers\\SizeController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAgwDoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T03:01:02.887Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -18,6 +40,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ColorController.cs",
+              "DocumentMoniker": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\Areas\\Admin\\Controllers\\ColorController.cs",
+              "RelativeDocumentMoniker": "MvsTaskOnlineShop\\Areas\\Admin\\Controllers\\ColorController.cs",
+              "ToolTip": "C:\\Users\\Nicat\\Desktop\\MvsTaskOnlineShop\\MvsTaskOnlineShop\\Areas\\Admin\\Controllers\\ColorController.cs",
+              "RelativeToolTip": "MvsTaskOnlineShop\\Areas\\Admin\\Controllers\\ColorController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAIwDoAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T03:00:58.055Z",
+              "EditorCaption": ""
             }
           ]
         }

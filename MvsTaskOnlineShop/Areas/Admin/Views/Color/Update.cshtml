@@ -1,0 +1,18 @@
+﻿@model Color
+<div class="row">
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Update</h4>
+                <form method="post" asp-action="Update" class="forms-sample" asp-route-id="@Model.Id" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="exampleInputUsername1">Name</label>
+                        <input asp-for="Name" type="text" class="form-control" id="exampleInputUsername1" placeholder="Name">
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary me-2">Submit</button>
+                    <a class="btn btn-light" asp-action="Index">Cancel</a>
+                </form>
+            </div>
+        </div>
+    </div>
