@@ -41,6 +41,15 @@
                         <label>Category</label>
                         <select asp-for="CategoryId" asp-items="ViewBag.CategoryId" class="form-control"></select>
                     </div>
+                    <div class="form-group">
+                        <label for="Sizes">Sizes</label>
+                        <select asp-for="Sizes" multiple class="form-control" id="Sizes">
+                            @foreach (var size in ViewData["Sizes"] as MultiSelectList)
+                            {
+                                <option value="@size.Value">@size.Text</option>
+                            }
+                        </select>
+                    </div>
                     <button type="submit" class="btn btn-primary me-2">Submit</button>
                     <a class="btn btn-light" asp-action="Index">Cancel</a>
                 </form>

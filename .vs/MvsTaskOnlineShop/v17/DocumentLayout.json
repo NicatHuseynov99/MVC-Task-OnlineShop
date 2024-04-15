@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Nicat\\Desktop\\MVC-Task-OnlineShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7008ADDD-57A1-42C8-895C-BC500F2314AA}|MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj|c:\\users\\nicat\\desktop\\mvc-task-onlineshop\\mvstaskonlineshop\\views\\shared\\components\\topbar\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7008ADDD-57A1-42C8-895C-BC500F2314AA}|MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj|solutionrelative:mvstaskonlineshop\\views\\shared\\components\\topbar\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7008ADDD-57A1-42C8-895C-BC500F2314AA}|MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj|c:\\users\\nicat\\desktop\\mvc-task-onlineshop\\mvstaskonlineshop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7008ADDD-57A1-42C8-895C-BC500F2314AA}|MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj|solutionrelative:mvstaskonlineshop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7008ADDD-57A1-42C8-895C-BC500F2314AA}|MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj|c:\\users\\nicat\\desktop\\mvc-task-onlineshop\\mvstaskonlineshop\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7008ADDD-57A1-42C8-895C-BC500F2314AA}|MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj|solutionrelative:mvstaskonlineshop\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7008ADDD-57A1-42C8-895C-BC500F2314AA}|MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj|c:\\users\\nicat\\desktop\\mvc-task-onlineshop\\mvstaskonlineshop\\areas\\admin\\controllers\\carouselcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7008ADDD-57A1-42C8-895C-BC500F2314AA}|MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj|solutionrelative:mvstaskonlineshop\\areas\\admin\\controllers\\carouselcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7008ADDD-57A1-42C8-895C-BC500F2314AA}|MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj|c:\\users\\nicat\\desktop\\mvc-task-onlineshop\\mvstaskonlineshop\\viewcomponents\\topbarviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7008ADDD-57A1-42C8-895C-BC500F2314AA}|MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj|solutionrelative:mvstaskonlineshop\\viewcomponents\\topbarviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7008ADDD-57A1-42C8-895C-BC500F2314AA}|MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj|c:\\users\\nicat\\desktop\\mvc-task-onlineshop\\mvstaskonlineshop\\areas\\admin\\views\\carousel\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7008ADDD-57A1-42C8-895C-BC500F2314AA}|MvsTaskOnlineShop\\MvsTaskOnlineShop.csproj|solutionrelative:mvstaskonlineshop\\areas\\admin\\views\\carousel\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,40 +34,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TopbarViewComponent.cs",
-              "DocumentMoniker": "C:\\Users\\Nicat\\Desktop\\MVC-Task-OnlineShop\\MvsTaskOnlineShop\\ViewComponents\\TopbarViewComponent.cs",
-              "RelativeDocumentMoniker": "MvsTaskOnlineShop\\ViewComponents\\TopbarViewComponent.cs",
-              "ToolTip": "C:\\Users\\Nicat\\Desktop\\MVC-Task-OnlineShop\\MvsTaskOnlineShop\\ViewComponents\\TopbarViewComponent.cs",
-              "RelativeToolTip": "MvsTaskOnlineShop\\ViewComponents\\TopbarViewComponent.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T16:04:06.587Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\Nicat\\Desktop\\MVC-Task-OnlineShop\\MvsTaskOnlineShop\\Views\\Shared\\Components\\Topbar\\Default.cshtml",
-              "RelativeDocumentMoniker": "MvsTaskOnlineShop\\Views\\Shared\\Components\\Topbar\\Default.cshtml",
-              "ToolTip": "C:\\Users\\Nicat\\Desktop\\MVC-Task-OnlineShop\\MvsTaskOnlineShop\\Views\\Shared\\Components\\Topbar\\Default.cshtml",
-              "RelativeToolTip": "MvsTaskOnlineShop\\Views\\Shared\\Components\\Topbar\\Default.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACEAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-15T16:03:34.98Z",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Nicat\\Desktop\\MVC-Task-OnlineShop\\MvsTaskOnlineShop\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MvsTaskOnlineShop\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Nicat\\Desktop\\MVC-Task-OnlineShop\\MvsTaskOnlineShop\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MvsTaskOnlineShop\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T18:43:19.229Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\Nicat\\Desktop\\MVC-Task-OnlineShop\\MvsTaskOnlineShop\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "MvsTaskOnlineShop\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\Nicat\\Desktop\\MVC-Task-OnlineShop\\MvsTaskOnlineShop\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "MvsTaskOnlineShop\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAuwGUAAAAJAAAA",
+              "Title": "CarouselController.cs",
+              "DocumentMoniker": "C:\\Users\\Nicat\\Desktop\\MVC-Task-OnlineShop\\MvsTaskOnlineShop\\Areas\\Admin\\Controllers\\CarouselController.cs",
+              "RelativeDocumentMoniker": "MvsTaskOnlineShop\\Areas\\Admin\\Controllers\\CarouselController.cs",
+              "ToolTip": "C:\\Users\\Nicat\\Desktop\\MVC-Task-OnlineShop\\MvsTaskOnlineShop\\Areas\\Admin\\Controllers\\CarouselController.cs",
+              "RelativeToolTip": "MvsTaskOnlineShop\\Areas\\Admin\\Controllers\\CarouselController.cs",
+              "ViewState": "AQIAAKQAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T15:02:30.169Z"
+              "WhenOpened": "2024-04-15T18:42:16.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nicat\\Desktop\\MVC-Task-OnlineShop\\MvsTaskOnlineShop\\Areas\\Admin\\Views\\Carousel\\Update.cshtml",
+              "RelativeDocumentMoniker": "MvsTaskOnlineShop\\Areas\\Admin\\Views\\Carousel\\Update.cshtml",
+              "ToolTip": "C:\\Users\\Nicat\\Desktop\\MVC-Task-OnlineShop\\MvsTaskOnlineShop\\Areas\\Admin\\Views\\Carousel\\Update.cshtml",
+              "RelativeToolTip": "MvsTaskOnlineShop\\Areas\\Admin\\Views\\Carousel\\Update.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-15T18:41:43.867Z",
+              "EditorCaption": ""
             }
           ]
         }

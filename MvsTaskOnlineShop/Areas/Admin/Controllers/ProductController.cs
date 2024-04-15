@@ -94,12 +94,14 @@ namespace MvsTaskOnlineShop.Areas.Admin.Controllers
         public IActionResult Create()
         {
             ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name");
+            ViewData["Sizes"] = new MultiSelectList(_context.Sizes, "Id", "Name");
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> Create(Product model)
+        public async Task<IActionResult> Create(Product model, List<int> selectedSizes)
         {
             ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name");
+            ViewData["Sizes"] = new MultiSelectList(_context.Sizes, "Id", "Name");
             if (!ModelState.IsValid)
             {
                 return View(model);

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EjraWHF4TWjnR+6TRp1rysXr14rM6qzPd6PyjxsdwGk=",
+  "Hash": "gFtZ3PVZ8rOaDBopTnOngibiyFvSOhPDIxBopKzy/Qo=",
   "Source": "MvsTaskOnlineShop",
   "BasePath": "_content/MvsTaskOnlineShop",
   "Mode": "Default",
@@ -28859,6 +28859,25 @@
       "OriginalItemSpec": "wwwroot\\css\\style.min.css"
     },
     {
+      "Identity": "C:\\Users\\Nicat\\Desktop\\MVC-Task-OnlineShop\\MvsTaskOnlineShop\\wwwroot\\img\\carousels\\c6513c11-a5de-4f82-9dcb-fcc3f37ec44f_5c46deb7e95ad.jpg",
+      "SourceId": "MvsTaskOnlineShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nicat\\Desktop\\MVC-Task-OnlineShop\\MvsTaskOnlineShop\\wwwroot\\",
+      "BasePath": "_content/MvsTaskOnlineShop",
+      "RelativePath": "img/carousels/c6513c11-a5de-4f82-9dcb-fcc3f37ec44f_5c46deb7e95ad.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\carousels\\c6513c11-a5de-4f82-9dcb-fcc3f37ec44f_5c46deb7e95ad.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Nicat\\Desktop\\MVC-Task-OnlineShop\\MvsTaskOnlineShop\\wwwroot\\img\\carousels\\carousel-1.jpg",
       "SourceId": "MvsTaskOnlineShop",
       "SourceType": "Discovered",
@@ -28876,25 +28895,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\carousels\\carousel-1.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Nicat\\Desktop\\MVC-Task-OnlineShop\\MvsTaskOnlineShop\\wwwroot\\img\\carousels\\carousel-2.jpg",
-      "SourceId": "MvsTaskOnlineShop",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nicat\\Desktop\\MVC-Task-OnlineShop\\MvsTaskOnlineShop\\wwwroot\\",
-      "BasePath": "_content/MvsTaskOnlineShop",
-      "RelativePath": "img/carousels/carousel-2.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\carousels\\carousel-2.jpg"
     },
     {
       "Identity": "C:\\Users\\Nicat\\Desktop\\MVC-Task-OnlineShop\\MvsTaskOnlineShop\\wwwroot\\img\\carousels\\carousel-3.jpg",

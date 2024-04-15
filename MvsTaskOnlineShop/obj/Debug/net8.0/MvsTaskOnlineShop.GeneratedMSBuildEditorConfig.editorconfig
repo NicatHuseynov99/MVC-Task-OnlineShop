@@ -26,6 +26,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Nicat\Desktop\MVC-Task-OnlineShop\MvsTaskOnlineShop
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Nicat/Desktop/MVC-Task-OnlineShop/MvsTaskOnlineShop/Areas/Admin/Views/Carousel/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2Fyb3VzZWxcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nicat/Desktop/MVC-Task-OnlineShop/MvsTaskOnlineShop/Areas/Admin/Views/Carousel/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2Fyb3VzZWxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nicat/Desktop/MVC-Task-OnlineShop/MvsTaskOnlineShop/Areas/Admin/Views/Carousel/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2Fyb3VzZWxcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Nicat/Desktop/MVC-Task-OnlineShop/MvsTaskOnlineShop/Areas/Admin/Views/Category/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
